@@ -1,0 +1,118 @@
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    color:rgb(19, 15, 13);
+    background-color:white;
+    opacity:0.9;
+    text-align:center;
+    margin:0;
+    border-bottom: 1px solid seashell;
+    }
+
+.header {
+    width: 100% ; 
+    height:100px;
+    display:flex;
+    background-color:white;
+    position: fixed;
+    align-items:center;
+    top:0px; 
+        
+        
+     }
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Reenie Beanie', cursive;
+    padding-left: 10%;
+    }
+    
+     
+.navigation {
+    display:flex
+        
+    }
+.navigation a {
+    justify-content: space-between;
+    padding: 0px 37px;
+       
+    }
+ .navigation a li {
+    display:block;
+    width: auto !important;
+    text-decoration: underline;
+    color:black;
+    list-style: none;
+            
+    }
+    
+.mission-container {
+    background-image:url('https://images.unsplash.com/photo-1476286768413-e7051cdb2179?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:700px;
+    max-width: 1000px;
+    margin: 40px auto 40px auto;
+    display:flex;
+    margin-top: 10%;
+    }
+.text-over {
+     margin:auto;
+     background-color:black;
+     color: whitesmoke;
+     width:100%;
+     opacity:80%;
+     z-index: 2;
+    }
+h2 {
+    text-align: center;
+    }
+.product-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height:auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    
+    }
+.product img {
+    height:200px;
+    width:300px;
+    padding:10px 10px;
+    }
+   
+.howitworks {
+    background-image:url('https://images.unsplash.com/photo-1566933883366-5125a3414299?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    opacity:80%;
+    color:black;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.step h4{
+    background-color: rgb(110, 210, 206); 
+    opacity: 90%;
+    text-overflow: initial;
+    text-align: center;
+    flex-basis: 280px;
+    z-index:2;
+}
+.step img {
+    height:200px;
+    width:300px;
+    padding:20px 20px;
+    z-index:1;
+
+}
+.contact h2 {
+    font-family: 'Reenie Beanie', cursive;  
+}
+.copywrite {
+    padding-top: 20px;
+}
